@@ -35,5 +35,6 @@ public class SpawnCubes : MonoBehaviour
     void PickandSpawn(Vector3 positionToSpawn, Quaternion rotation)
     {
         GameObject cube = Instantiate(spawnObj, positionToSpawn, rotation);
+        cube.transform.parent = gameObject.transform;
     }
 }

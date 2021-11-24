@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Pickaxe
+  - HItPoint
+  - First
+  - Tool
+  - Ground
+  - Last
+  - SpawnManager
   layers:
   - Default
   - TransparentFX
@@ -12,9 +18,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Tools
+  - Ground
+  - Last
   - 
   - 
   - 
