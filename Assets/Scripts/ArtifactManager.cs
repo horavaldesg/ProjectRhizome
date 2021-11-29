@@ -32,7 +32,7 @@ public class ArtifactManager : MonoBehaviour
         {
             artName.SetText(artifactName);
             origin.SetText("Origin: " + artifactOrigin);
-            summary.SetText("Origin: " + artifactSummary);
+            summary.SetText("Summary: " + artifactSummary);
             image.sprite = imageSprite;
         }
     }
