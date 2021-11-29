@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 2884976089314702827}
   - component: {fileID: 2884976089314702816}
   - component: {fileID: 4724499643924731409}
-  m_Layer: 0
+  - component: {fileID: 4853438910265990433}
+  m_Layer: 9
   m_Name: Artifact 1
-  m_TagString: Untagged
+  m_TagString: Artifact
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -219,3 +220,19 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!114 &4853438910265990433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2884976089314702826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afdd17bf4ef73422cab92a735e2f9999, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aritfactName: Abrader
+  artifactOrigin: Virginia
+  summary: 'Certainly one of the oldest recoveries of an abrader was at '
+  artifactImage: {fileID: 21300000, guid: 1e8a072a2ae124475b7ebe72d36f0a13, type: 3}

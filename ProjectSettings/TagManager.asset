@@ -11,6 +11,7 @@ TagManager:
   - Ground
   - Last
   - SpawnManager
+  - Artifact
   layers:
   - Default
   - TransparentFX
@@ -21,7 +22,7 @@ TagManager:
   - Tools
   - Ground
   - Last
-  - 
+  - Artifacts
   - 
   - 
   - 
