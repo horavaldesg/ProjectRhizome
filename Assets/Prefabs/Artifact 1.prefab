@@ -234,5 +234,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aritfactName: Abrader
   artifactOrigin: Virginia
-  summary: 'Certainly one of the oldest recoveries of an abrader was at '
+  summary: Certainly one of the oldest recoveries of an abrader was
   artifactImage: {fileID: 21300000, guid: 1e8a072a2ae124475b7ebe72d36f0a13, type: 3}

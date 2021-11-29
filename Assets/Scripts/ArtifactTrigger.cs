@@ -23,4 +23,11 @@ public class ArtifactTrigger : MonoBehaviour
             artifactObj = other.gameObject;
         }
     }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Artifact"))
+        {
+            artifactObj = null;
+        }
+    }
 }

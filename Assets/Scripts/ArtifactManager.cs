@@ -10,10 +10,12 @@ public class ArtifactManager : MonoBehaviour
     public SpawnManager arifactsManger;
     string artifactName;
     string artifactOrigin;
+    string artifactSummary;
     Image artifactImage;
 
     public TextMeshProUGUI artName;
     public TextMeshProUGUI origin;
+    public TextMeshProUGUI summary;
     public Image image;
     Sprite imageSprite;
     // Start is called before the first frame update
@@ -30,6 +32,7 @@ public class ArtifactManager : MonoBehaviour
         {
             artName.SetText(artifactName);
             origin.SetText("Origin: " + artifactOrigin);
+            summary.SetText("Origin: " + artifactSummary);
             image.sprite = imageSprite;
         }
     }
@@ -38,6 +41,7 @@ public class ArtifactManager : MonoBehaviour
         artifact = aritfactTrigger.artifactObj;
         artifactName = artifact.GetComponent<ArtifactObject>().aritfactName;
         artifactOrigin = artifact.GetComponent<ArtifactObject>().artifactOrigin;
+        artifactSummary = artifact.GetComponent<ArtifactObject>().summary;
         imageSprite = artifact.GetComponent<ArtifactObject>().artifactImage;
 
 
