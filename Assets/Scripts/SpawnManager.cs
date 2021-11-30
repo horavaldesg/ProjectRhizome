@@ -21,7 +21,7 @@ public class SpawnManager : MonoBehaviour
     {
         for(int i = 0; i < 5; i++)
         {
-            int r = Random.Range(0, artifactsStatic.Length - 1);
+            int r = Random.Range(0, artifactsStatic.Length);
             float x = Random.Range(parent.position.x - 0.5f, parent.position.x + 0.5f);
             float z = Random.Range(parent.position.z - 0.5f, parent.position.z + 0.5f);
             Vector3 objPos = new Vector3(x, parent.position.y, z);
